@@ -1,16 +1,13 @@
-## Hi there 👋
+# IRCFriend
 
-<!--
-**IRCFriend/IRCFriend** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+IRCFriend is a friendly, privacy-conscious IRC client for Mac.
 
-Here are some ideas to get you started:
+Visit the website: https://ircfriend.github.io/IRCFriend/
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About
+
+IRCFriend makes IRC easier to use while preserving the openness and community feel of classic Internet chat.
+
+## Website
+
+This repository contains the official IRCFriend website.
