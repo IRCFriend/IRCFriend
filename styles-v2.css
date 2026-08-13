@@ -82,10 +82,8 @@ h1 {
 .chat-frame {
   width: 100%;
   aspect-ratio: 1333 / 1180;
-  background: url("images/chat-window-final.png") center / contain no-repeat;
+  background: url("images/chat-window-final.png") center / 110% 110% no-repeat;
   border: 3px solid var(--ink);
-  outline: 2px solid var(--coral);
-  outline-offset: -9px;
   box-shadow: 22px 26px 0 var(--shadow);
   transform: rotate(14deg);
 }
