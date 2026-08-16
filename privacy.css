@@ -92,11 +92,9 @@
   line-height: 1.45;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .privacy-page { padding: 56px 0 68px; }
   .privacy-intro { min-height: 0; margin-bottom: 42px; }
-  .privacy-grid { grid-template-columns: 1fr; }
-  .privacy-section { min-height: 0; padding: 30px 26px 34px; }
   .privacy-intro-art {
     position: static;
     display: block;
@@ -111,4 +109,9 @@
     width: min(100%, 190px);
     margin: 36px auto 0;
   }
+}
+
+@media (max-width: 700px) {
+  .privacy-grid { grid-template-columns: 1fr; }
+  .privacy-section { min-height: 0; padding: 30px 26px 34px; }
 }
