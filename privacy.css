@@ -1,0 +1,114 @@
+.privacy-page {
+  padding: 78px 0 92px;
+}
+
+.privacy-intro {
+  position: relative;
+  min-height: 330px;
+  margin-bottom: 62px;
+}
+
+.privacy-intro .eyebrow,
+.privacy-section .eyebrow {
+  margin: 0 0 16px;
+  color: var(--brown);
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.privacy-intro h1 {
+  margin: 0 0 24px;
+  font-size: clamp(3.2rem, 7vw, 6.2rem);
+  line-height: .92;
+}
+
+.privacy-intro p {
+  max-width: 680px;
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+  line-height: 1.45;
+}
+
+.privacy-intro-art {
+  position: absolute;
+  top: -30px;
+  right: 28px;
+  width: clamp(200px, 24vw, 270px);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  transform: rotate(4deg);
+  filter: drop-shadow(14px 18px 12px rgba(93, 77, 57, .18));
+}
+
+.support-logo-art {
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  width: 190px;
+  opacity: 1 !important;
+  filter: contrast(1.12) saturate(1.08) drop-shadow(14px 18px 12px rgba(93, 77, 57, .18));
+}
+
+.privacy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid var(--line);
+  background: var(--line);
+}
+
+.privacy-section {
+  min-height: 260px;
+  padding: 34px 38px 40px;
+  background: var(--panel);
+}
+
+.privacy-section h2 {
+  margin: 0 0 18px;
+  font-size: clamp(1.8rem, 3vw, 2.65rem);
+  line-height: 1;
+}
+
+.privacy-section p {
+  margin: 0 0 14px;
+  color: #302018;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.privacy-section p:last-child { margin-bottom: 0; }
+.privacy-section a { text-underline-offset: 3px; }
+
+.privacy-note {
+  margin-top: 30px;
+  padding: 24px 28px;
+  border-left: 3px solid var(--coral);
+  background: rgba(233, 225, 217, .72);
+  color: var(--muted);
+  font-size: .95rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 700px) {
+  .privacy-page { padding: 56px 0 68px; }
+  .privacy-intro { min-height: 0; margin-bottom: 42px; }
+  .privacy-grid { grid-template-columns: 1fr; }
+  .privacy-section { min-height: 0; padding: 30px 26px 34px; }
+  .privacy-intro-art {
+    position: static;
+    display: block;
+    width: min(100%, 260px);
+    margin: 36px auto 0;
+    transform: rotate(3deg);
+  }
+
+  .support-logo-art {
+    position: static;
+    display: block;
+    width: min(100%, 190px);
+    margin: 36px auto 0;
+  }
+}

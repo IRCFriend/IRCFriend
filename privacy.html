@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How IRCFriend handles information on your Mac and during IRC connections.">
+  <title>Privacy by Design — IRCFriend</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="privacy.css">
+</head>
+<body id="top">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="IRCFriend home">
+      <img class="brand-bubble brand-bubble-coral" src="images/title-bubble-coral.svg" alt="">
+      <span>IRCFriend</span>
+      <img class="brand-bubble brand-bubble-gold" src="images/title-bubble-gold.svg" alt="">
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
+      <a href="support.html">Support</a>
+      <a class="nav-button" href="index.html#download">Coming soon</a>
+    </nav>
+  </header>
+
+  <main class="privacy-page">
+    <section class="privacy-intro" aria-labelledby="privacy-title">
+      <p class="eyebrow">IRCFriend privacy</p>
+      <h1 id="privacy-title">Privacy by Design</h1>
+      <p>
+        IRCFriend is built to connect you with IRC servers and communities without
+        adding a separate social profile, advertising layer, or chat-history service.
+        This page describes the app’s current behavior while it remains in development.
+      </p>
+      <img class="privacy-intro-art" src="images/privacy-desk-crt.png" alt="A person using an IRCFriend CRT chat setup at a desk">
+    </section>
+
+    <div class="privacy-grid">
+      <section class="privacy-section" aria-labelledby="handled-title">
+        <p class="eyebrow">01</p>
+        <h2 id="handled-title">What IRCFriend handles</h2>
+        <p>
+          When you connect, IRCFriend handles the server address, port, nickname,
+          username, real name, room names, messages, and other IRC information needed
+          for the connection and features you choose to use.
+        </p>
+        <p>
+          That information is sent to the IRC server and other IRC users as required
+          by the conversation. IRCFriend does not own or control those servers, rooms,
+          or messages.
+        </p>
+      </section>
+
+      <section class="privacy-section" aria-labelledby="not-title">
+        <p class="eyebrow">02</p>
+        <h2 id="not-title">What it does not add</h2>
+        <p>
+          The current app does not include an IRCFriend account, advertising, built-in
+          analytics, or telemetry. It does not send chat activity to an IRCFriend
+          tracking service, and it does not provide cloud chat-history sync.
+        </p>
+        <p>
+          This description will be updated before release if the app’s services or
+          data practices change.
+        </p>
+      </section>
+
+      <section class="privacy-section" aria-labelledby="local-title">
+        <p class="eyebrow">03</p>
+        <h2 id="local-title">What stays on your Mac</h2>
+        <p>
+          Preferences such as chat text size, theme, sound settings, remembered
+          connection settings, and a chosen DCC save-folder permission are stored
+          locally on your Mac so the app can work as you configured it.
+        </p>
+        <p>
+          Active room members, messages, private-message content, and transfer status
+          are held for the current session. IRCFriend does not save chat logs or
+          private-message history by default.
+        </p>
+      </section>
+
+      <section class="privacy-section" aria-labelledby="network-title">
+        <p class="eyebrow">04</p>
+        <h2 id="network-title">Connections and TLS</h2>
+        <p>
+          IRCFriend supports Transport Layer Security (TLS) connections and verifies
+          server certificates by default. TLS encrypts the connection between the app
+          and the IRC server while it is in use.
+        </p>
+        <p>
+          TLS is not end-to-end encryption for IRC messages. The IRC server, room
+          operators, and message recipients may be able to see, retain, or disclose
+          messages. The option to allow an invalid certificate is intended only for
+          deliberate testing of a trusted server.
+        </p>
+      </section>
+
+      <section class="privacy-section" aria-labelledby="files-title">
+        <p class="eyebrow">05</p>
+        <h2 id="files-title">Files and DCC</h2>
+        <p>
+          DCC transfers are separate from the IRC conversation and may not have the
+          same TLS protection. IRCFriend requires explicit acceptance before receiving
+          a file, sanitizes the received filename, and does not open downloaded files
+          automatically by default.
+        </p>
+        <p>
+          Accepted files are written to the folder you choose on your Mac. Review
+          unexpected files with appropriate security tools before opening them.
+        </p>
+      </section>
+
+      <section class="privacy-section" aria-labelledby="website-title">
+        <p class="eyebrow">06</p>
+        <h2 id="website-title">This website</h2>
+        <p>
+          The IRCFriend information site is hosted with GitHub Pages. GitHub may
+          process technical information about website visits for hosting, security,
+          and service operation. See
+          <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub’s Privacy Statement</a>
+          for GitHub’s current practices.
+        </p>
+        <p>
+          If you contact us, we receive the information you choose to include in your
+          message. We will publish the support contact details before release.
+        </p>
+      </section>
+    </div>
+
+    <p class="privacy-note">
+      This page describes the current development version of IRCFriend. We’ll update
+      it if the app’s information practices change.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 IRCFriend</span>
+    <a href="index.html">Home</a>
+    <a href="support.html">Questions, comments, or bug reports?</a>
+  </footer>
+</body>
+</html>
